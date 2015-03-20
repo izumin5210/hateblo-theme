@@ -1,6 +1,7 @@
 {
   "name": "hateblo-theme",
   "version": "1.0.0",
+  "author": "izumin5210 <masayuki@izumin.info>",
   "license": "MIT",
   "devDependencies": {
     "bower": "^1.3.12",
