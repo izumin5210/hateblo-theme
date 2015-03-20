@@ -4,5 +4,8 @@
   "authors": [
     "izumin5210 <masayuki@izumin.info>"
   ],
-  "license": "MIT"
+  "license": "MIT",
+  "devDependencies": {
+    "modularized-normalize-scss": "~3.0.2"
+  }
 }
