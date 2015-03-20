@@ -19,7 +19,11 @@ $font-family-base:        "ヒラギノ角ゴ ProN W3", "Hiragino Kaku Gothic Pr
 $font-size-base:          14px;
 
 
-// #### GlobalHeader ################################
+// #### hatena blog ################################
+// **** GlobalHeader
 $globalheader-bg:       white;
 $globalheader-color:    $text-color;
 $globalheader-border:   $text-color;
+
+// **** container
+$container-size:        940px;
