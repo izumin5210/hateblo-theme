@@ -3,24 +3,20 @@
 @import "variables";
 
 // bootstrap-sass-official variables
-@import "bootstrap-sass-official/bootstrap/variables";
+@import "bootstrap/variables";
 
 
 // #### bootstra-sass-official ################################
 // Core mixins
-@import "bootstrap-sass-official/bootstrap/mixins";
+@import "bootstrap/mixins";
 
 // Reset and dependencies
-@import "bootstrap-sass-official/bootstrap/normalize";
-@import "bootstrap-sass-official/bootstrap/print";
-@import "bootstrap-sass-official/bootstrap/glyphicons";
+@import "bootstrap/normalize";
+@import "bootstrap/print";
 
 // Core CSS
-@import "bootstrap-sass-official/bootstrap/scaffolding";
-@import "bootstrap-sass-official/bootstrap/type";
-@import "bootstrap-sass-official/bootstrap/code";
-@import "bootstrap-sass-official/bootstrap/grid";
-@import "bootstrap-sass-official/bootstrap/tables";
-@import "bootstrap-sass-official/bootstrap/forms";
-@import "bootstrap-sass-official/bootstrap/buttons";;
+@import "bootstrap/scaffolding";
+@import "bootstrap/type";
+@import "bootstrap/code";
+@import "bootstrap/grid";
 

@@ -9,8 +9,15 @@ PLEEEASE_OPTS =
     browsers: ["last 4 versions", "ie 9", "Android 2.3", "ios 6"]
   minifier: false
 
+BOWER_COMPONENTS = 'bower_components'
+
+SASS_LOADPATH = [
+  BOWER_COMPONENTS
+  "#{BOWER_COMPONENTS}/bootstrap-sass-official/assets/stylesheets"
+]
+
 gulp.task 'sass', ->
-  opts = { bundleExec: true, loadPath: ['./bower_components'] }
+  opts = { bundleExec: true, loadPath: SASS_LOADPATH }
   $.rubySass('src/style.scss', opts)
     .on('error', $.util.log)
     .pipe($.pleeease(PLEEEASE_OPTS))
