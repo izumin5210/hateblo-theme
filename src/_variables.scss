@@ -17,3 +17,9 @@ $link-color:            $gray-dark;
 // #### Typography ################################
 $font-family-base:        "ヒラギノ角ゴ ProN W3", "Hiragino Kaku Gothic ProN", "游ゴシック", YuGothic, "メイリオ", Meiryo, sans-serif;
 $font-size-base:          14px;
+
+
+// #### GlobalHeader ################################
+$globalheader-bg:       white;
+$globalheader-color:    $text-color;
+$globalheader-border:   $text-color;

@@ -1,0 +1,9 @@
+#globalheader-container {
+  background-color: $globalheader-bg;
+  color: $globalheader-color;
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  border-bottom: 1px solid $globalheader-border;
+}
