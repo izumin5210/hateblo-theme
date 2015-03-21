@@ -1,10 +1,17 @@
 #blog-title {
-  margin: 30px 0;
+  background-color: $header-bg;
+  padding: 30px 0;
+  margin-bottom: $header-margin-bottom;
+}
+
+#blog-title-inner {
+  background-color: $header-inner-bg;
   padding: 20px 0;
 }
 
 #title {
-  margin: 0;
+  width: $header-title-size;
+  margin: 0 auto;
   a {
     color: $header-color;
     font-size: $header-font-size;

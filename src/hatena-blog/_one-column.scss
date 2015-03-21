@@ -10,7 +10,7 @@
 
 #box2-inner {
   @include clearfix;
-  width: $container-size;
+  width: $content-size;
   overflow: hidden;
 }
 

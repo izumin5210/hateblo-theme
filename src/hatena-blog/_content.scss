@@ -1,0 +1,6 @@
+#content {
+  @include clearfix;
+  width: $content-size;
+  margin-left: auto;
+  margin-right: auto;
+}
