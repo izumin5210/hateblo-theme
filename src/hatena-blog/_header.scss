@@ -1,0 +1,29 @@
+#blog-title {
+  margin: 30px 0;
+  padding: 20px 0;
+}
+
+#title {
+  margin: 0;
+  a {
+    color: $header-color;
+    // font-size: $header-font-size;
+    font-weight: $header-font-weight;
+  }
+}
+
+#blog-description {
+  font-weight: normal;
+  font-size: 80%;
+  margin: 5px 0 0 0;
+}
+
+.header-image-enable {
+  #title {
+    padding-top: 70px;
+  }
+  #title,
+  #blog-description {
+    padding-left: 20px;
+  }
+}
