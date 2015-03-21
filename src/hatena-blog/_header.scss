@@ -5,23 +5,23 @@
 }
 
 #blog-title-inner {
-  background-color: $header-inner-bg;
+  width: $header-title-size;
+  margin: 0 auto;
   padding: 20px 0;
 }
 
 #title {
-  width: $header-title-size;
-  margin: 0 auto;
   a {
-    color: $header-color;
-    font-size: $header-font-size;
-    font-weight: $header-font-weight;
+    color: $title-color;
+    font-size: $title-font-size;
+    font-weight: $title-font-weight;
   }
 }
 
 #blog-description {
-  font-weight: normal;
-  font-size: 80%;
+  color: $description-color;
+  font-size: $description-font-size;
+  font-weight: $description-font-weight;
   margin: 5px 0 0 0;
 }
 

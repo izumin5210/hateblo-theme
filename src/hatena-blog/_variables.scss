@@ -16,7 +16,11 @@ $header-size:           100%;
 $header-title-size:     $content-size;
 $header-margin-bottom:  0px;
 $header-bg:             transparent;
-$header-inner-bg:       $header-bg;
-$header-color:          $text-color;
-$header-font-size:      $font-size-h1;
-$header-font-weight:    bold;
+
+$title-color:          $text-color;
+$title-font-size:      $font-size-h1;
+$title-font-weight:    bold;
+
+$description-color:         $text-color;
+$description-font-size:     $font-size-base;
+$description-font-weight:   normal;
