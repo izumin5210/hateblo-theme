@@ -1,0 +1,30 @@
+// #### headings ################################
+h1,
+h2 {
+  padding-bottom: 8px;
+}
+
+h1 {
+  border-bottom: 3px solid $gray-lighter;
+}
+
+h2 {
+  border-bottom: 1px solid $gray-lighter;
+}
+
+h3 {
+  &:before {
+    content: '■';
+    font-size: $font-size-base;
+    margin-right: 4px;
+  }
+}
+
+// #### links ################################
+a {
+  border-bottom: 1px dotted $gray;
+  &:hover {
+    border-bottom-style: solid;
+    border-bottom-color: rgba($gray, .3);
+  }
+}

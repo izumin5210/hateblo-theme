@@ -12,10 +12,20 @@ $body-bg:               $gray-lighter;
 $text-color:            $gray;
 
 $link-color:            $gray-dark;
+$link-hover-decoration: none;
 
 
 // #### Typography ################################
 $font-family-base:      "ヒラギノ角ゴ ProN W3", "Hiragino Kaku Gothic ProN", "游ゴシック", YuGothic, "メイリオ", Meiryo, sans-serif;
 $font-size-base:        14px;
 
-$hr-border:             lighten($gray-base, 80%) // #ccc
+$font-size-h1:          ceil(($font-size-base * 1.7)) !default; // ~24px
+$font-size-h2:          floor(($font-size-base * 1.6)) !default; // ~22px
+$font-size-h3:          ceil(($font-size-base * 1.4)) !default; // ~20px
+$font-size-h4:          ceil(($font-size-base * 1.25)) !default; // ~18px
+$font-size-h5:          $font-size-base !default;
+$font-size-h6:          ceil(($font-size-base * 0.85)) !default; // ~12px
+
+// #### Type ################################
+$blockquote-font-size:  $font-size-base;
+$hr-border:             lighten($gray-base, 80%); // #ccc
