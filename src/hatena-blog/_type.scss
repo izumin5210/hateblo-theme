@@ -20,6 +20,24 @@ h3 {
   }
 }
 
+
+// #### blockquote ################################
+blockquote {
+  @extend .fa-quote-left;
+  position: relative;
+  &:before {
+    @extend .fa;
+    @extend .fa-4x;
+    position: absolute;
+    top: 0;
+    color: $gray-lighter;
+  }
+  * {
+    position: relative;
+  }
+}
+
+
 // #### links ################################
 a {
   border-bottom: 1px dotted $gray;
