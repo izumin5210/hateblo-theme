@@ -7,7 +7,7 @@
 #blog-title-inner {
   width: $header-title-size;
   margin: 0 auto;
-  padding: 20px 0;
+  padding: 20px 60px;
 }
 
 #title {
@@ -15,6 +15,7 @@
     color: $title-color;
     font-size: $title-font-size;
     font-weight: $title-font-weight;
+    border: none;
   }
 }
 
