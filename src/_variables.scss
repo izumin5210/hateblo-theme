@@ -29,3 +29,8 @@ $font-size-h6:          ceil(($font-size-base * 0.85)) !default; // ~12px
 // #### Type ################################
 $blockquote-font-size:  $font-size-base;
 $hr-border:             lighten($gray-base, 80%); // #ccc
+
+
+// #### FontAwesome ################################
+$fa-font-path:        "//netdna.bootstrapcdn.com/font-awesome/4.3.0/fonts";
+

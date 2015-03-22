@@ -6,6 +6,7 @@
   ],
   "license": "MIT",
   "devDependencies": {
-    "bootstrap-sass-official": "~3.3.4"
+    "bootstrap-sass-official": "~3.3.4",
+    "fontawesome": "~4.3.0"
   }
 }

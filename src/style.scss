@@ -2,12 +2,10 @@
 // custom variables
 @import "variables";
 
-// bootstrap-sass-official variables
-@import "bootstrap/variables";
-
 
 // #### bootstra-sass-official ################################
-// Core mixins
+// Core variables and mixins
+@import "bootstrap/variables";
 @import "bootstrap/mixins";
 
 // Reset and dependencies
@@ -21,6 +19,11 @@
 @import "bootstrap/tables";
 
 
+// #### fontawesome ################################
+@import "fontawesome/scss/font-awesome";
+
+
+// Core mixins
 // #### hatena blog ################################
 @import "hatena-blog/variables";
 @import "hatena-blog/type";
