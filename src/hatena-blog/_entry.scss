@@ -1,0 +1,51 @@
+.entry {
+  position: relative;
+  margin-bottom: $entry-margin-bottom;
+}
+
+.entry-header {
+  position: relative;
+  padding: 0 0 10px 0;
+  margin-bottom: 20px;
+}
+
+.entry-title {
+  margin: 0;
+  font-size: $entry-title-size;
+  font-weight: $entry-title-weight;
+  a {
+    color: $entry-title-color;
+    &:hover {
+      text-decoration: none;
+    }
+  }
+}
+
+.date {
+  font-weight: bold;
+  margin-bottom: 10px;
+  a {
+    color: $link-color;
+    text-decoration: none;
+    font-size: $font-size-small;
+  }
+}
+
+.categories {
+  margin-top: 10px;
+  font-size: $font-size-small;
+  a {
+    color: $gray-light;
+  }
+  &.no-categories {
+    margin: 0;
+  }
+}
+
+.entry-header-menu {
+  position: absolute;
+  bottom: 0;
+  left: -60px;
+  a {
+  }
+}

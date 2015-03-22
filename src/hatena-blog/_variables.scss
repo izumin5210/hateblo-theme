@@ -5,7 +5,7 @@ $globalheader-color:    $text-color;
 $globalheader-border:   $text-color;
 
 // **** content
-$content-size:        940px;
+$content-size:          940px;
 
 // **** two column
 $main-size:             600px;
@@ -17,10 +17,17 @@ $header-title-size:     $content-size;
 $header-margin-bottom:  0px;
 $header-bg:             transparent;
 
-$title-color:          $text-color;
-$title-font-size:      $font-size-h1;
-$title-font-weight:    bold;
+$title-color:           $text-color;
+$title-font-size:       $font-size-h1;
+$title-font-weight:     bold;
 
 $description-color:         $text-color;
 $description-font-size:     $font-size-base;
 $description-font-weight:   normal;
+
+// **** entry
+$entry-margin-bottom:   100px;
+
+$entry-title-size:      $font-size-h1;
+$entry-title-color:     $text-color;
+$entry-title-weight:    bold;
