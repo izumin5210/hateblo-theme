@@ -1,0 +1,13 @@
+.page-about {
+  dt {
+    @extend .h1;
+  }
+
+  dd {
+    margin-left: 0;
+    margin-bottom: 30px;
+    img {
+      display: inline;
+    }
+  }
+}
