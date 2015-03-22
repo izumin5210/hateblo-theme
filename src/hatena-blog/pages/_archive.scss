@@ -1,0 +1,10 @@
+.page-archive {
+  .archive-entries {
+    .archive-entry {
+      @extend .entry;
+      .categories {
+        margin-bottom: 10px;
+      }
+    }
+  }
+}
