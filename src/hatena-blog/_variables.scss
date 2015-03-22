@@ -3,6 +3,7 @@
 $globalheader-bg:       white;
 $globalheader-color:    $text-color;
 $globalheader-border:   $text-color;
+$globalheader-box-shadow:   lighten($gray-base, 80%); // #ccc
 
 // **** content
 $content-size:          960px;
@@ -28,7 +29,7 @@ $description-font-weight:   normal;
 // **** entry
 $entry-bg:              white;
 $entry-margin-bottom:   60px;
-$entry-box-shadow:      lighten($gray-base, 80%); // #ccc
+$entry-box-shadow:      $globalheader-box-shadow; // #ccc
 
 $entry-title-size:      $font-size-h1;
 $entry-title-color:     $text-color;
