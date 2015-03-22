@@ -5,7 +5,7 @@ $globalheader-color:    $text-color;
 $globalheader-border:   $text-color;
 
 // **** content
-$content-size:          940px;
+$content-size:          960px;
 
 // **** two column
 $main-size:             600px;
@@ -35,3 +35,8 @@ $entry-title-color:     $text-color;
 $entry-title-weight:    bold;
 
 $entry-border:          $hr-border; // #ccc
+
+// **** sidebar
+$sidebar-bg:            $gray;
+$sidebar-text-color:    white;
+$sidebar-link-color:    white;

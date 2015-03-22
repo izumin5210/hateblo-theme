@@ -1,25 +1,7 @@
 #main {
-  width: 100%;
-  float: none;
-}
-
-#box2 {
-  width: 100%;
-  float: none;
-}
-
-#box2-inner {
   @include clearfix;
   width: $content-size;
-  overflow: hidden;
+  margin-left: auto;
+  margin-right: auto;
 }
 
-.hatena-module {
-  text-align: left;
-  padding-right: 20px;
-  width: 300px;
-  float: left;
-  &:nth-child(3n+1) {
-    clear: both;
-  }
-}

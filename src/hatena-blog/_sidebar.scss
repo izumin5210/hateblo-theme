@@ -1,0 +1,50 @@
+#box2 {
+  font-size: $font-size-small;
+  background: $sidebar-bg;
+
+  color: $sidebar-text-color;
+
+  box-shadow: inset 0 3px 6px -3px $gray-dark,
+              inset 0 -3px 6px -3px $gray-dark;
+
+  a {
+    color: $sidebar-link-color;
+    border-bottom-color: $sidebar-link-color;
+  }
+}
+
+#box2-inner {
+  @extend #main;
+}
+
+.hatena-module {
+  width: $content-size / 3;
+  text-align: left;
+  margin-bottom: 60px;
+  float: left;
+  &:nth-child(3n+1) {
+    clear: both;
+  }
+}
+
+.hatena-module-title {
+  @extend .h3;
+  margin-bottom: 15px;
+}
+
+.hatena-module-profile {
+  .profile-icon {
+    float: left;
+    margin: 0 10px 10px 0;
+    border-radius: $border-radius-base;
+  }
+
+  .id {
+    display: block;
+    font-weight: bold;
+    margin-bottom: 5px;
+  }
+
+  .profile-description {
+  }
+}
