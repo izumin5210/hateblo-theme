@@ -19,9 +19,7 @@
   font-weight: $entry-title-weight;
   a {
     color: $entry-title-color;
-    &:hover {
-      text-decoration: none;
-    }
+    border-style: none;
   }
 }
 
@@ -29,8 +27,8 @@
   font-weight: bold;
   margin-bottom: 10px;
   a {
+    border-style: none;
     color: $link-color;
-    text-decoration: none;
     font-size: $font-size-small;
   }
 }

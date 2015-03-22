@@ -40,9 +40,8 @@ blockquote {
 
 // #### links ################################
 a {
-  border-bottom: 1px dotted $gray;
+  border-bottom: 1px dotted $link-color;
   &:hover {
     border-bottom-style: solid;
-    border-bottom-color: rgba($gray, .3);
   }
 }
