@@ -15,11 +15,13 @@
 
 #box2-inner {
   @extend #main;
+  padding-top: 30px;
 }
 
 .hatena-module {
   width: $content-size / 3;
   text-align: left;
+  padding: 0 10px;
   margin-bottom: 60px;
   float: left;
   &:nth-child(3n+1) {
