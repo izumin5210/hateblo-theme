@@ -1,6 +1,10 @@
 .entry {
   position: relative;
+  padding: 40px 60px;
   margin-bottom: $entry-margin-bottom;
+  background-color: $entry-bg;
+  box-shadow: 0 0 3px $entry-box-shadow;
+  border-radius: $border-radius-base;
 }
 
 .entry-header {
@@ -48,4 +52,44 @@
   left: -60px;
   a {
   }
+}
+
+.entry-content {
+  font-size: $font-size-base;
+  line-height: $line-height-computed;
+
+  p {
+    margin: 0 0 1em 0;
+  }
+
+  img {
+    @extend .img-responsive;
+  }
+
+  table {
+    @extend .table;
+    @extend .table-bordered;
+  }
+
+  .hatena-asin-detail {
+  }
+}
+
+.entry-footer {
+  margin-top: 30px;
+  padding-top: 30px;
+  border-top: 1px solid $entry-border;
+}
+
+.entry-footer-section {
+  font-size: $font-size-small;
+  color: $gray-light;
+  a {
+    color: $gray-light;
+  }
+}
+
+.social-buttons,
+.entry-footer-html {
+  margin: 10px 0;
 }

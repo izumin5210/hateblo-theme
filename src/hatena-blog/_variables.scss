@@ -26,8 +26,12 @@ $description-font-size:     $font-size-base;
 $description-font-weight:   normal;
 
 // **** entry
+$entry-bg:              white;
 $entry-margin-bottom:   100px;
+$entry-box-shadow:      lighten($gray-base, 80%); // #ccc
 
 $entry-title-size:      $font-size-h1;
 $entry-title-color:     $text-color;
 $entry-title-weight:    bold;
+
+$entry-border:          $hr-border; // #ccc
