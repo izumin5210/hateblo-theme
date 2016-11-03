@@ -1,0 +1,61 @@
+#box2 {
+  background-color: var(--gray-lightest);
+  box-shadow: 0 0 3px var(--gray-light);
+  padding: calc(4 * var(--spacing)) 0;
+  color: var(--color-text);
+}
+
+#box2-inner {
+  display: flex;
+  flex-wrap: wrap;
+
+  width: var(--container-width);
+  margin: calc(6 * var(--spacing)) auto;
+}
+
+.hatena-module {
+  flex: 1 0 calc(var(--container-width) / 3);
+  padding: calc(2 * var(--spacing));
+
+  & .search-form {
+    position: relative;
+  }
+
+  & .search-module-input {
+    background-color: var(--gray-lightest);
+    color: var(--color-text);
+    outline: none;
+    border-radius: var(--border-radius-base);
+    border: 1px solid var(--gray-light);
+    padding: 0 var(--spacing);
+    width: 100%;
+    height: 2em;
+    line-height: 2em;
+    &:focus {
+      border-color: var(--gray);
+    }
+  }
+
+  & .search-module-button {
+    background: transparent url('https://cdn.blog.st-hatena.com/images/theme/search@2x.png?version=2f360a840655d6a9ae6134a3a7fe095a') no-repeat 100%;
+    background-size: 20px 20px;
+    position: absolute;
+    width: 2em;
+    height: 2em;
+    line-height: 2em;
+    top: 0;
+    right: 5px;
+    opacity: .5;
+    text-indent: -9999px;
+  }
+}
+
+.hatena-module-title {
+  font-size: 1.2rem;
+  border-bottom: 1px solid var(--gray);
+  margin-bottom: 1.0em;
+
+  & a {
+    @apply --no-link-border;
+  }
+}

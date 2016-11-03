@@ -1,0 +1,69 @@
+:root {
+  --btn: {
+    border-width: 1px;
+    border-style: solid;
+    border-radius: var(--border-radius-base);
+
+    position: relative;
+    z-index: 2;
+    display: inline-block;
+    padding: 0.5em 1.5em;
+    outline: none;
+    transition: all .3s;
+    overflow: hidden;
+
+    &:before,
+    &:after {
+      position: absolute;
+      z-index: -1;
+      display: block;
+      content: '';
+      transition: all .3s;
+    }
+
+    &:after {
+      top: 0;
+      left: 0;
+      width: 100%;
+      height: 100%;
+      transform: scale(.5);
+    }
+
+    &:hover:after {
+      background: var(--gray);
+      transform: scale(1);
+    }
+  };
+
+  --btn-light: {
+    @apply --btn;
+    color: var(--gray-lightest);
+    border-color: var(--gray-lightest);
+
+    &:hover {
+      color: var(--gray);
+      border-color: var(--gray-lightest);
+      &:after {
+        background-color: var(--gray-lightest);
+      }
+    }
+  };
+
+  --btn-dark: {
+    @apply --btn;
+    color: var(--gray);
+    border-color: var(--gray);
+
+    &:hover {
+      color: var(--gray-lightest);
+      border-color: var(--gray);
+      &:after {
+        background-color: var(--gray);
+      }
+    }
+  };
+
+  --btn-thin: {
+    padding: 0 1em;
+  };
+}

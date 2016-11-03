@@ -1,0 +1,32 @@
+:root {
+  --insert-before: {
+    margin-right: 4px;
+  };
+
+  --no-link-color: {
+    &:link,
+    &:visited,
+    &:hover,
+    &:active {
+      color: var(--color-text);
+    }
+  };
+
+  --no-link-border: {
+    &:link,
+    &:visited,
+    &:hover,
+    &:active {
+      border-bottom: none;
+    }
+  };
+
+  --no-link-bg: {
+    &:link,
+    &:visited,
+    &:hover,
+    &:active {
+      background: none;
+    }
+  };
+}

@@ -1,0 +1,15 @@
+.archive-entry {
+  @apply --card;
+
+  & .date {
+    @apply --card-date;
+  }
+
+  & .entry-title {
+    @apply --card-title;
+  }
+
+  & .categories {
+    @apply --card-categories;
+  }
+}
