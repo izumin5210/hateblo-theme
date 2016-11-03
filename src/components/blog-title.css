@@ -1,0 +1,22 @@
+#blog-title {
+  margin-top: calc(8 * var(--spacing));
+  margin-bottom: calc(8 * var(--spacing));
+}
+
+#title {
+  text-align: center;
+  font-size: 1.3rem;
+  font-weight: normal;
+
+  & a {
+    @apply --no-link-color;
+    @apply --no-link-border;
+    @apply --no-link-bg;
+  }
+}
+
+#blog-description {
+  text-align: center;
+  font-size: 1.0rem;
+  font-weight: normal;
+}

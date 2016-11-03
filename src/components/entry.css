@@ -1,0 +1,38 @@
+.entry {
+  @apply --card;
+}
+
+.entry-header,
+.entry-content,
+.entry-footer {
+  position: relative;
+}
+
+.entry-date {
+  @apply --card-date;
+}
+
+.entry-categories {
+  @apply --card-categories;
+}
+
+.entry-title {
+  @apply --card-title;
+}
+
+.entry-header-menu {
+  position: absolute;
+  font-size: 0.75em;
+  right: 0;
+
+  & a {
+    @apply --btn-dark;
+    @apply --btn-thin;
+  }
+}
+
+.entry-content {
+  @apply --markdown;
+  margin-top: calc(6 * var(--spacing));
+  margin-bottom: calc(6 * var(--spacing));
+}

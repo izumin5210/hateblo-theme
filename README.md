@@ -1,24 +1,14 @@
-# hateblo-boilerplate-sass
+# hateblo-boilerplate-postcss
 
 ## Usage
 
-Install dependencies.
-
 ```
-$ npm install
-$ bower install
-$ bundle install
-```
-
-Watch and build Sass.
-
-```
-$ gulp watch
+$ npm start
 ```
 
 ## Author
 
-Masayuki IZUMI (izumin5210: [Twitter](//twitter.com/izumin5210), [GitHub](//github.com/izumin5210))
+Masayuki Izumi (izumin5210: [Twitter](//twitter.com/izumin5210), [GitHub](//github.com/izumin5210))
 
 ## License
 

@@ -1,0 +1,12 @@
+.pager {
+  padding: calc(8 * var(--spacing)) 0;
+  text-align: center;
+
+  & .pager-prev,
+  & .pager-next {
+    margin: calc(4 * var(--spacing));
+    & a {
+      @apply --btn-dark;
+    }
+  }
+}

@@ -1,0 +1,193 @@
+:root {
+  --md-insert-before: {
+    margin-right: calc(0.75 * var(--spacing));
+    color: var(--gray);
+  };
+  
+  --md-heading: {
+    margin-top: 2.4em;
+    margin-bottom: 0.8em;
+  };
+
+  --md-h1: {
+    @apply --md-heading;
+    font-size: var(--font-size-h1);
+    border-bottom: 1px solid var(--gray);
+    &:before {
+      @apply --md-insert-before;
+      content: "#";
+    }
+  };
+
+  --md-h2: {
+    @apply --md-heading;
+    font-size: var(--font-size-h2);
+    border-bottom: 1px solid var(--gray);
+    &:before {
+      @apply --md-insert-before;
+      content: "##";
+    }
+  };
+
+  --md-h3: {
+    @apply --md-heading;
+    font-size: var(--font-size-h3);
+    &:before {
+      @apply --md-insert-before;
+      content: "###";
+    }
+  };
+
+  --md-h4: {
+    @apply --md-heading;
+    font-size: var(--font-size-h4);
+    &:before {
+      @apply --md-insert-before;
+      content: "####";
+    }
+  };
+
+  --md-h5: {
+    @apply --md-heading;
+    font-size: var(--font-size-h5);
+    &:before {
+      @apply --md-insert-before;
+      content: "#####";
+    }
+  };
+
+  --md-h6: {
+    @apply --md-heading;
+    font-size: var(--font-size-h6);
+    &:before {
+      @apply --md-insert-before;
+      content: "######";
+    }
+  };
+
+  --md-p: {
+  }
+
+  --md-ul: {
+    list-style: none;
+    padding: 0 calc(4 * var(--spacing));
+    margin: var(--spacing) 0;
+
+    & li {
+      &:before{
+        @apply --md-insert-before;
+        content: "-";
+      }
+    }
+  };
+
+  --md-ol: {
+    list-style-position: inside;
+    padding: 0 calc(4 * var(--spacing));
+    margin: var(--spacing) 0;
+  };
+
+  --md-dl: {
+    padding: 0 calc(4 * var(--spacing));
+    margin: var(--spacing) 0;
+
+    & dt {
+      font-weight: bold;
+    }
+
+    & dd {
+      text-indent: 2em;
+      margin: 0;
+    }
+  };
+
+  --md-strong: {
+    &:before,
+    &:after {
+      content: '**';
+    }
+  };
+
+  --md-em: {
+    &:before,
+    &:after {
+      content: '_';
+    }
+  };
+
+  --md-s: {
+    &:before,
+    &:after {
+      content: '~~';
+    }
+  };
+
+  --md-bq: {
+    border-left: 4px var(--gray-light) solid;
+    padding: calc(2 * var(--spacing)) calc(3 * var(--spacing));
+    margin-left: calc(4 * var(--spacing));
+    margin-right: calc(4 * var(--spacing));
+  };
+
+  --md-pre: {
+    background-color: var(--gray-lighter);
+    padding: calc(2 * var(--spacing)) calc(3 * var(--spacing));
+    border-radius: var(--border-radius-base);
+    &:before,
+    &:after {
+      color: var(--gray-light);
+      display: block;
+      content: "```";
+    }
+  };
+
+  --md-code: {
+    padding: 0 calc(0.5 * var(--spacing));
+    margin: 0 calc(0.25 * var(--spacing));
+    border: 1px solid var(--gray-light);
+    border-radius: var(--border-radius-base);
+    background-color: var(--gray-lighter);
+  };
+
+  --md-hr: {
+    width: 50%;
+    border-top: 1px dashed var(--gray);
+  };
+
+  --md-table: {
+    & th,
+    & td {
+      border: 1px solid var(--gray-light);
+      padding: calc(0.5 * var(--spacing)) var(--spacing);
+    }
+    & th {
+      background-color: var(--gray-lighter);
+    }
+  }
+
+  --markdown: {
+    color: var(--color-text);
+    & h1 { @apply --md-h1; }
+    & h2 { @apply --md-h2; }
+    & h3 { @apply --md-h3; }
+    & h4 { @apply --md-h4; }
+    & h5 { @apply --md-h5; }
+    & h6 { @apply --md-h6; }
+    & p { @apply --md-p; }
+    & ul { @apply --md-ul; }
+    & ol { @apply --md-ol; }
+    & dl { @apply --md-dl; }
+    & strong { @apply --md-strong; }
+    & em { @apply --md-em; }
+    & s { @apply --md-s; }
+    & blockquote { @apply --md-bq; }
+    & table { @apply --md-table; }
+    & pre { @apply --md-pre; }
+    & code,
+    & samp,
+    & kbd,
+    & var { @apply --md-code; }
+    & hr { @apply --md-hr; }
+  };
+
+}

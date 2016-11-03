@@ -1,0 +1,43 @@
+:root {
+  --card: {
+    width: var(--container-width);
+    background-color: var(--gray-lightest);
+    box-shadow: 0 0 3px var(--gray-light);
+    border-radius: var(--border-radius-base);
+    padding-top: calc(6 * var(--spacing));
+    padding-bottom: calc(6 * var(--spacing));
+    padding-left: calc(15 * var(--spacing));
+    padding-right: calc(15 * var(--spacing));
+    margin: calc(6 * var(--spacing)) auto;
+  };
+
+  --card-title: {
+    text-align: center;
+    font-size: 1.5rem;
+    font-weight: normal;
+    text-decoration: none;
+    margin: calc(0.5 * var(--spacing)) 0;
+
+    & a {
+      @apply --no-link-color;
+      @apply --no-link-border;
+      @apply --no-link-bg;
+    }
+  };
+
+  --card-date: {
+    text-align: center;
+    font-size: 0.8rem;
+    color: var(--gray);
+  };
+
+  --card-categories: {
+    text-align: center;
+    font-size: 0.75em;
+
+    & a {
+      @apply --btn-dark;
+      @apply --btn-thin;
+    }
+  };
+}

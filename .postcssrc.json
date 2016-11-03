@@ -1,0 +1,14 @@
+{
+  "use": [
+    "postcss-import",
+    "postcss-custom-properties",
+    "postcss-apply",
+    "postcss-nesting",
+    "postcss-flexbugs-fixes",
+    "autoprefixer",
+    "postcss-csso"
+  ],
+  "input": "src/style.css",
+  "output": "dist/bundle.css",
+  "local-plugins": true
+}
